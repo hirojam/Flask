@@ -40,5 +40,5 @@ def post():
         return redirect(url_for('index'))
 
 if __name__ == '__main__':
-    app.debug = True # デバッグモード有効化
-    app.run(host='0.0.0.0') # どこからでもアクセス可能に
+    #app.debug = True # デバッグモード有効化
+    app.run() # どこからでもアクセス可能に
